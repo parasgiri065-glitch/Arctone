@@ -6,13 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    turbopack: false, // Disabled due to hanging issues with large JSX files
-  },
   // Prevent common configuration errors
   reactStrictMode: true,
-  // Optimize for stability
-  swcMinify: true,
   
   // Performance optimizations
   compress: true,
