@@ -416,26 +416,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonial */}
-      <section className="py-32 px-4 bg-[#0f0f0f]">
-        <motion.div
-          className="max-w-4xl mx-auto"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <img 
-            src="/premium-testimonial.png" 
-            alt="Client success story" 
-            className="w-full rounded-3xl shadow-2xl border border-[#ff6b35]/20 mb-12"
-          />
-          <div className="text-center">
-            <p className="text-2xl font-bold mb-4 text-pretty">"ArcTone transformed my content strategy. Real results in 90 days."</p>
-            <p className="text-[#a0a0a0]">— Successful Creator & Coach</p>
-          </div>
-        </motion.div>
-      </section>
-
       {/* FAQ */}
       <section id="faq" className="py-32 px-4 bg-[#0a0a0a]">
         <div className="max-w-3xl mx-auto">
