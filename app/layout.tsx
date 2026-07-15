@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'ArcTone | Turn Creators Into Authorities',
-  description: 'You just film. We handle the rest. Research, strategy, editing & viral hooks. First 3 clients get month 1 at $500.',
+  description: 'You just film. We handle the rest. Research, strategy, editing & viral hooks. First 3 clients get month 1 at $899.',
   generator: 'v0.app',
   applicationName: 'ArcTone',
   keywords: ['content creation', 'video editing', 'strategy', 'creators', 'authority'],
